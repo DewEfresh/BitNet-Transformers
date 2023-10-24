@@ -6,8 +6,8 @@ python run_clm.py \
 --dataset_config_name='wikitext-103-v1' \
 --model_type='llama' \
 --config_name='./bitllama-110M-config' \
---tokenizer_name='beomi/llama-2-ko-7b' \
---num_train_epochs=10 \
+--tokenizer_name='mistralai/Mistral-7B-v0.1' \
+--num_train_epochs=3 \
 --block_size=2048 \
 --per_device_train_batch_size=1 \
 --gradient_accumulation_steps=1 \
