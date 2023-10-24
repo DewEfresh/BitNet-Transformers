@@ -41,7 +41,7 @@ from transformers.utils import (
     logging,
     replace_return_docstrings,
 )
-from transformers.configuration_mistral import MistralConfig
+from transformers.models.mistral.configuration_mistral import MistralConfig
 
 from bitnet_mistral.module import BitLinearOptimized as BitLinear
 
