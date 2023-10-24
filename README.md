@@ -10,7 +10,7 @@
 
 ```bash
 # Clone this repo
-git clone https://github.com/beomi/bitnet-transformers
+git clone https://github.com/DewEfresh/bitnet-transformers
 cd bitnet-transformers
 
 # Install requirements
@@ -22,7 +22,7 @@ pip install -e transformers
 
 # Update Llama(2) model
 #rm ./transformers/src/transformers/models/llama/modeling_llama.py
-#ln -s $(pwd)/bitnet_llama/modeling_llama.py ./transformers/src/transformers/models/llama/modeling_llama.py
+#ln -s $(pwd)/bitnet_mistral/modeling_llama.py ./transformers/src/transformers/models/llama/modeling_llama.py
 
 # Update Llama(2) model
 rm ./transformers/src/transformers/models/mistral/modeling_mistral.py
