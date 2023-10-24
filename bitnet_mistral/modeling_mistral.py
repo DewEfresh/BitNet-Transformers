@@ -42,7 +42,7 @@ from transformers.utils import (
 )
 from .configuration_mistral import MistralConfig
 
-from bitnet_llama.module import BitLinearOptimized as BitLinear
+from bitnet_mistral.module import BitLinearOptimized as BitLinear
 
 
 if is_flash_attn_2_available():
