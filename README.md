@@ -21,8 +21,8 @@ git clone https://github.com/huggingface/transformers
 pip install -e transformers
 
 # Update Llama(2) model
-#rm ./transformers/src/transformers/models/llama/modeling_llama.py
-#ln -s $(pwd)/bitnet_mistral/modeling_llama.py ./transformers/src/transformers/models/llama/modeling_llama.py
+rm ./transformers/src/transformers/models/llama/modeling_llama.py
+ln -s $(pwd)/bitnet_mistral/modeling_llama.py ./transformers/src/transformers/models/llama/modeling_llama.py
 
 # Update Llama(2) model
 rm ./transformers/src/transformers/models/mistral/modeling_mistral.py
